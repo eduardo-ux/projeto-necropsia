@@ -213,8 +213,9 @@ div#hamburguer{
 
 nav {
     display: flex;
+    flex-direction: row;
     height: 90px;
-    width: 82vw;
+    max-width: 100vw;
     background-color: #f3e9dc;
     padding: 10px 0px 10px 40px;
 
@@ -234,7 +235,7 @@ nav div#descricao{
 nav div#links{
    position: absolute;
    top: 5%;
-   left: 60vw;
+   left: 40vw;
 }
 nav div#links a {
         text-decoration: none;
@@ -251,13 +252,13 @@ nav div#links a:hover{
 }
 div#agenda{
     height: 110px;
-    width:  calc(100vw - 84.3vw) ;
     background-color: #3A3A3C;
     padding: 0;
-    margin: 0;
-   position: absolute;
-   top: 0%;
-   left: 84%;
+    margin: 0; 
+    position: relative;
+    top: -10px;
+    left: 67vw;
+
 }
 div#agenda a {
     text-decoration: none;
