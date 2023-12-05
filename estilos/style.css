@@ -272,7 +272,7 @@ div#agenda a:hover {
 }
 div#botao{
     height: 110px;
-    width: 300px;
+    width: 00px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -284,7 +284,7 @@ div#botao button {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
     color: #a2a2a6;
-    background-color: #3a3a3c00;
+    background-color: #636367;
 }
 section{
     display: flex;
