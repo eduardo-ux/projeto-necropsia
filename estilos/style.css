@@ -255,9 +255,9 @@ div#agenda{
     background-color: #3A3A3C;
     padding: 0;
     margin: 0; 
-    position: relative;
-    top: -10px;
-    left: 67vw;
+    position: absolute;
+    top: 0px;
+    left:   80% ;
 
 }
 div#agenda a {
